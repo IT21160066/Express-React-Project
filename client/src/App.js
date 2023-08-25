@@ -17,6 +17,8 @@ function App() {
     )
   }, []) //set empty array for run only first render of the component
 
+  console.log(backendData);
+
   return (
     <div>
       {(typeof backendData.users === 'undefined') ? (
